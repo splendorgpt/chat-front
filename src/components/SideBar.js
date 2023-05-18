@@ -86,12 +86,12 @@ const SideBar = () => {
           <a
             rel='noreferrer'
             target='_blank'
-            href='https://github.com/EyuCoder/chatgpt-clone'
+            href='https://splendos.org'
             className='nav__item'>
             <div className='nav__icons'>
               <AiOutlineGithub />
             </div>
-            <h1 className={`${!open && 'hidden'}`}>Clone on Github</h1>
+            <h1 className={`${!open && 'hidden'}`}>Buscador</h1>
           </a>
         </div>
         <div onClick={() => setModalOpen(true)} className='nav'>
